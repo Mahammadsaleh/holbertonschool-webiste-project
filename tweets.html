@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Tweets</title>
+
+    <link
+      href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAD//////////////////////////3I2JLdyNyTnczYjUAAAAAD///////////////////////////////////////////////////////////////9yNiPJdTgl/3g6Jv9yNyTKbzcnIAAAAACcpgBQnKYAiZ2lAJmepQBm////////////////AAAAAAAAAAAAAAAAcjcjdHY5Jf9yNiT/ci4m/3I1JPAAAAAAnqUARAAAAAAAAAAAnqcArZmqAA///////////wAAAAAAAAAAAAAAAHI3Ikp2NyX/dDwj/56nAP93RiH2AAAAAAAAAAAAAAAAAAAAAJ2mAG2dpgBT//////////8AAAAAAAAAAIFAKkNyNiP/bykm/5iaCf98VR//cDIk/gAAAAAAAAAAAAAAAAAAAACcpgCGoKYAK6BSO7agVDrMnlI5eZ5SOFGmVz3/hzwx/4uCEP97UR//cDEl/3Y5Jf8AAAAAAAAAAAAAAAAAAAAAnaYAnv////+hUzvppVY9/6ZXPf+nVz3/olE8/6J3Lf+PdB7/bS0k/3I3JP9zNyT/cjck72YzGQoAAAAAAAAAAJ6mAKD/////n1Q7UqlYPv+hVDv/oVM7/6FYOf+ekhj/pE4//4dELv9vNSL/cjck/3Q4Jf9yNiT3AAAAAJ6nAJ2bogAh/////wAAAACgVDrMpVY8/6JOPf+fjxv/oVI7/6FUO/+kVj3/h0Qu/281Iv9yNyT/dDgl/3I4JOmktgCVAAAAAP//////////nlI0IqFSPPOhaDL4oX8o/6dUP/+iVTv/oVQ7/6RWPf+GRC7/bzUi/3I3JP91OCX/bislpP////////////////////8AAAAAnK0ArQAAAAAAAAAAoVM78aNVPP+hVDv/pFY9/4ZDLv9zNiT/dTgl/3Y5Jf//////////////////////AAAAAJ2mAK4AAAAAAAAAAJZLLRGhVDr4o1U8/6FUO/+oWj3/pM4AYmwqIoR4Oib/cTYkh////////////////56oAGmepwBxAAAAAAAAAAAAAAAAmUwzFKFRO+ylVT3/pVY9/6RPPoeHQy7Fczck/3E2I7v///////////////+cpQCQnKgAQwAAAAAAAAAAAAAAAAAAAACdrQCPn2oxzahWPv+qWD7/qVg+/4lFL/9vNSHU////////////////nKYAap2lAIAAAAAAAAAAAKGoACacpgC/nqgAZgAAAACUUjEfoVQ6laFUO8OhVDv/oVQ7//////////////////////+dpgCvnqYApZ2nAKSdpgCa////////////////////////////////////////////////AYAAAAByAAA8PQAAPD8AADg9AAAwPAAAABwAAIAKAACAAgAAQAAAACwAAAAuEAAAPwAAAB8AAAAu4AAAAAAAAA=="
+      rel="icon"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://apply.holbertonschool.com/level2/school.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,200;6..72,400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      h1 {
+        font-family: "Newsreader", serif;
+        font-size: larger;
+        font-size: 5rem;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        padding: 5px;
+        font-family: "Newsreader", serif;
+        font-size: 18px;
+        margin-top: 15px;
+      }
+
+      .twitter-tweet {
+        margin: 0;
+      }
+
+      .tweet h2 {
+        color: #242e38;
+      }
+    </style>
+  </head>
+
+  <body class="works_on_smartphone">
+    <header>
+      <div class="right">
+        <div style="display: flex; gap: 1rem">
+          <a
+            href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+            class="twitter-share-button"
+            data-show-count="true"
+            >Tweet</a
+          >
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+          <script>
+            (function (d, s, id) {
+              var js,
+                fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s);
+              js.id = id;
+              js.src =
+                "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+              fjs.parentNode.insertBefore(js, fjs);
+            })(document, "script", "facebook-jssdk");
+          </script>
+
+          <div
+            class="fb-share-button"
+            data-href="http://13.38.20.71/index.html"
+            data-layout="button_count"
+          ></div>
+        </div>
+      </div>
+
+      <ul>
+        <li class="logo">
+          <a href="index.html"
+            ><img
+              style="width: 3rem; height: 3rem; border-radius: 100%"
+              src="https://storage.googleapis.com/pod_public/1300/164376.jpg"
+              alt="Logo"
+          /></a>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="projects.html">My Projects</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <article>
+        <h1 style="font-size: 4rem; font-weight: 700">
+          Recent News from Space Companies
+        </h1>
+        <div class="tweet-container">
+          <div class="tweet">
+            <h2>Delivery of OSIRIS-REx Sample Capsule</h2>
+            <blockquote class="twitter-tweet">
+              <p lang="en" dir="ltr">
+                Your package has been delivered.<br /><br />The
+                <a
+                  href="https://twitter.com/hashtag/OSIRISREx?src=hash&amp;ref_src=twsrc%5Etfw"
+                  >#OSIRISREx</a
+                >
+                sample return capsule containing rock and dust collected in
+                space from asteroid Bennu has arrived at temporary clean room in
+                Utah. The 4.5-billion-year-old sample will soon head to
+                <a href="https://twitter.com/NASA_Johnson?ref_src=twsrc%5Etfw"
+                  >@NASA_Johnson</a
+                >
+                for curation and analysis.
+                <a href="https://t.co/Ke0PcDAKt0">pic.twitter.com/Ke0PcDAKt0</a>
+              </p>
+              &mdash; NASA (@NASA)
+              <a
+                href="https://twitter.com/NASA/status/1705991341254050197?ref_src=twsrc%5Etfw"
+                >September 24, 2023</a
+              >
+            </blockquote>
+            <script
+              async
+              src="https://platform.twitter.com/widgets.js"
+              charset="utf-8"
+            ></script>
+          </div>
+          <div class="tweet">
+            <h2>Successful Landing of Falcon 9 First Stage</h2>
+            <blockquote class="twitter-tweet">
+              <p lang="en" dir="ltr">
+                Falcon 9’s first stage has landed on the Of Course I Still Love
+                You droneship
+                <a href="https://t.co/EHF885sPDr">pic.twitter.com/EHF885sPDr</a>
+              </p>
+              &mdash; SpaceX (@SpaceX)
+              <a
+                href="https://twitter.com/SpaceX/status/1706231510632951924?ref_src=twsrc%5Etfw"
+                >September 25, 2023</a
+              >
+            </blockquote>
+            <script
+              async
+              src="https://platform.twitter.com/widgets.js"
+              charset="utf-8"
+            ></script>
+          </div>
+          <div class="tweet">
+            <h2>SpaceX Launches 22 Starlink Satellites</h2>
+            <blockquote class="twitter-tweet">
+              <p lang="en" dir="ltr">
+                Falcon 9 launches 22
+                <a href="https://twitter.com/Starlink?ref_src=twsrc%5Etfw"
+                  >@Starlink</a
+                >
+                satellites to orbit from Florida
+                <a href="https://t.co/AdQFrBvIvU">pic.twitter.com/AdQFrBvIvU</a>
+              </p>
+              &mdash; SpaceX (@SpaceX)
+              <a
+                href="https://twitter.com/SpaceX/status/1705806555642556460?ref_src=twsrc%5Etfw"
+                >September 24, 2023</a
+              >
+            </blockquote>
+            <script
+              async
+              src="https://platform.twitter.com/widgets.js"
+              charset="utf-8"
+            ></script>
+          </div>
+          <div class="tweet">
+            <h2>The Artemis Accords: Promoting Space Cooperation</h2>
+            <blockquote class="twitter-tweet">
+              <p lang="en" dir="ltr">
+                The Artemis Accords: Changing the Narrative from Space Race to
+                Space Cooperation
+                <a href="https://t.co/QG0ydnU5U2">https://t.co/QG0ydnU5U2</a>
+                <a href="https://t.co/Pl5O3zHlnN">pic.twitter.com/Pl5O3zHlnN</a>
+              </p>
+              &mdash; SpaceNews (@SpaceNews_Inc)
+              <a
+                href="https://twitter.com/SpaceNews_Inc/status/1704876950391492983?ref_src=twsrc%5Etfw"
+                >September 21, 2023</a
+              >
+            </blockquote>
+            <script
+              async
+              src="https://platform.twitter.com/widgets.js"
+              charset="utf-8"
+            ></script>
+          </div>
+          <div class="tweet">
+            <h2>Astro Andreas and ESA Education Collaboration</h2>
+            <blockquote class="twitter-tweet">
+              <p lang="en" dir="ltr">
+                A busy day for
+                <a href="https://twitter.com/Astro_Andreas?ref_src=twsrc%5Etfw"
+                  >@astro_andreas</a
+                >, in addition to becoming commander later today, he had a call
+                with
+                <a href="https://twitter.com/ESA__Education?ref_src=twsrc%5Etfw"
+                  >@ESA__Education</a
+                >
+                and Danish schoolchildren. He answered questions from students
+                about food, science and everyday life on the
+                <a href="https://twitter.com/Space_Station?ref_src=twsrc%5Etfw"
+                  >@Space_Station</a
+                >
+                👨‍🚀
+                <a href="https://t.co/pc8apWB75l">pic.twitter.com/pc8apWB75l</a>
+              </p>
+              &mdash; Human Spaceflight (@esaspaceflight)
+              <a
+                href="https://twitter.com/esaspaceflight/status/1706635635476365344?ref_src=twsrc%5Etfw"
+                >September 26, 2023</a
+              >
+            </blockquote>
+            <script
+              async
+              src="https://platform.twitter.com/widgets.js"
+              charset="utf-8"
+            ></script>
+          </div>
+        </div>
+      </article>
+
+      <aside
+        style="
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+            rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        "
+      >
+        <div id="disqus_thread"></div>
+      </aside>
+    </main>
+
+    <footer>
+      Made by Mahammadsaleh Abbas for
+      <a href="https://apply.holbertonschool.com" target="_blank"
+        >Holberton School</a
+      >
+    </footer>
+
+    <iframe
+      scrolling="no"
+      frameborder="0"
+      allowtransparency="true"
+      src="cid:frame-47CA684350E55436F099A12C1DF45A79@mhtml.blink"
+      title="Twitter settings iframe"
+      style="display: none"
+    ></iframe
+    ><iframe style="display: none"></iframe
+    ><iframe
+      id="rufous-sandbox"
+      scrolling="no"
+      frameborder="0"
+      allowtransparency="true"
+      allowfullscreen="true"
+      style="
+        position: absolute;
+        visibility: hidden;
+        display: none;
+        width: 0px;
+        height: 0px;
+        padding: 0px;
+        border: none;
+      "
+      title="Twitter analytics iframe"
+    ></iframe>
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = "http://13.38.20.71/tweets.html";
+        this.page.identifier = "Space Exploration";
+      };
+
+      (function () {
+        var d = document,
+          s = d.createElement("script");
+        s.src = "https://http-13-38-20-71-3.disqus.com/embed.js";
+        s.setAttribute("data-timestamp", +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript
+      >Please enable JavaScript to view the
+      <a href="https://disqus.com/?ref_noscript"
+        >comments powered by Disqus.</a
+      ></noscript
+    >
+  </body>
+</html>

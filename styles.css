@@ -1,0 +1,216 @@
+@charset "utf-8";
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+}
+article {
+  padding: 0 2rem;
+  flex: 3 1 0%;
+  overflow-y: auto;
+}
+.tweet-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.tweet {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  border-radius: 10px;
+  max-width: 20rem;
+  width: 90%;
+  height: 25rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: #f7f7f7; 
+  padding: 10px;
+  border: 1px solid #e0e0e0; 
+}
+
+/* Style the scrollbar */
+.tweet::-webkit-scrollbar {
+  width: 8px; 
+}
+
+.tweet::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 4px; 
+}
+
+.tweet::-webkit-scrollbar-thumb:hover {
+  background-color: #555; 
+}
+
+aside {
+  margin-right: 1rem;
+  flex: 1 1;
+  overflow-y: auto;
+}
+li a img {
+  margin-right: 1.5rem;
+}
+header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+}
+header .right {
+  margin-top: 15px;
+}
+header ul {
+  margin: 0 10px 15px;
+  display: flex !important;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+}
+header li a {
+  font-weight: 500;
+  text-align: center;
+  margin: 0 5px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 5rem;
+  background-color: #1877f2; 
+  color: #fff; 
+  border: none;
+  border-radius: 5rem; 
+
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px; 
+}
+
+
+button:hover {
+  background-color: #aac3e2;
+}
+
+
+button iframe {
+  width: 16px; 
+  height: 16px; 
+}
+
+
+article h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+article p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+
+footer {
+  background-color: rgba(200, 193, 193, 0.61);
+  margin-top: 1rem;
+  padding: 10px;
+  box-shadow: rgba(46, 217, 240, 0.4) 5px 5px, rgba(46, 211, 240, 0.3) 10px 10px,
+    rgba(46, 208, 240, 0.2) 15px 15px, rgba(46, 175, 240, 0.1) 20px 20px,
+    rgba(46, 240, 237, 0.05) 25px 25px;
+  height: auto;
+
+  backdrop-filter: blur(10px);
+  color: #282828;
+  text-align: center;
+
+  font-size: 14px;
+}
+
+
+aside {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.container-me {
+  display: flex;
+  gap: 0.5rem;
+}
+.left-me {
+  padding: 10px;
+}
+.right-me {
+  flex: 2;
+}
+.img-me {
+  padding-top: 1.5rem;
+  border-radius: 100%;
+  width: 12rem;
+  display: flex;
+  justify-content: center;
+}
+.p-me {
+  padding: 10px;
+}
+.accounts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+.li {
+  display: flex;
+}
+.be {
+  display: flex;
+}
+.git {
+  display: flex;
+}
+.accounts li {
+  list-style: none;
+  padding-left: 10px;
+}
+.accounts li a {
+  color: #1877f2;
+  text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  .container-me {
+    display: block;
+  }
+  .img-me {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  header .right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container-me {
+    display: block;
+  }
+  .img-me {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 382px) {
+  li a img {
+    display: none;
+  }
+}
